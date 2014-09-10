@@ -18,3 +18,10 @@ sur les fichiers (en récursif) d'un répertoire donné. Peut filter par extensi
 Languages gérés :
 * PHP (nécessite d'avoir PHP CLI installé)
 * Javascript (nécessite javascriptlint, http://javascriptlint.com/)
+
+check-unix-eol.sh
+-----------------
+
+Sur une arborescence donnée (récursif), vérifie que les fichiers utilisent bien tous
+des fin de ligne unix. Un filtrage est possible sur une liste d'extension passée en 
+paramètre.
